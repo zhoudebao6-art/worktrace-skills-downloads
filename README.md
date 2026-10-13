@@ -1,13 +1,13 @@
 # WorkTrace 公开下载
 
-其他电脑的 Codex 可以从这里读取任务指令、下载经校验的技能源码，无需 GitHub 登录，也不需要访问私有维护仓库。本仓库仅分发通用代码和说明，不接收公司数据库、员工证据或登录凭据。
+完整的 [WorkTrace 技能维护仓库](https://github.com/zhoudebao6-art/worktrace-skills) 现已公开，后续优先使用该主入口。本仓库保留兼容下载链接，其他电脑无需 GitHub 登录。本仓库仅分发通用代码和说明，不接收公司数据库、员工证据或登录凭据。
 
 ## 化工案件员工：独立离线分控
 
 把下面这句话发给目标员工电脑的 Codex，使用 **6.1 Sol / high**：
 
 ```text
-请读取并完整执行 https://raw.githubusercontent.com/zhoudebao6-art/worktrace-skills-downloads/main/prompts/chemical-offline-collector.txt 。从其中指定的公开 v0.2.1 发布页下载并校验源码，在这台员工电脑完成独立离线分控所需扩展、部署和验收。总控尚未上线，未来也不在同一局域网；数据先在本机保存，数日后生成完整交接包。不要访问私有维护仓库或发起方电脑的本地路径。
+请读取并完整执行 https://raw.githubusercontent.com/zhoudebao6-art/worktrace-skills/main/prompts/chemical-offline-collector.txt 。从其中指定的公开 v0.2.1 发布页下载并校验源码，在这台员工电脑完成独立离线分控所需扩展、部署和验收。总控尚未上线，未来也不在同一局域网；数据先在本机保存，数日后生成完整交接包。不要访问发起方电脑的本地路径。
 ```
 
 [阅读完整任务指令](prompts/chemical-offline-collector.txt) · [查看纯文本指令](https://raw.githubusercontent.com/zhoudebao6-art/worktrace-skills-downloads/main/prompts/chemical-offline-collector.txt)
@@ -35,6 +35,6 @@
 
 ## 源码与维护
 
-源码基线提交：`206a8334755c95fc721f08d9a0ec738c41a4be74`，来源版本 `v0.2.1`。公开下载包与已验证的原版源码包逐字节一致；原维护仓库保持私有，历史提交和账户凭据没有复制到这里。
+源码基线提交：`206a8334755c95fc721f08d9a0ec738c41a4be74`，来源版本 `v0.2.1`。公开下载包与已验证的原版源码包逐字节一致。维护仓库在用户授权后已整体公开；本分发仓库的旧版下载和固定标签继续保留，账户凭据不属于分发内容。
 
 目标电脑修改源码时保留原包、基础版本及派生修改清单。公司运行数据、交接资料和任何机密材料只保存在公司指定位置，不提交到本仓库、公开 Issue 或 GitHub Release。
