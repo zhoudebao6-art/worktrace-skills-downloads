@@ -1,0 +1,11 @@
+{
+  "format": "worktrace.public-distribution/1.0",
+  "source_version": "0.2.1",
+  "source_commit": "206a8334755c95fc721f08d9a0ec738c41a4be74",
+  "asset": "worktrace-skills-v0.2.1.zip",
+  "asset_bytes": 355629,
+  "asset_sha256": "33f7a85212f7f7cfaeac5928c35e949c9100a39cc55b00771947426e1fa372bc",
+  "prompt": "prompts/chemical-offline-collector.txt",
+  "standalone_offline_mode_in_source_version": false,
+  "purpose": "Public source download and implementation instructions; target deployment and offline extensions still require execution and validation."
+}
